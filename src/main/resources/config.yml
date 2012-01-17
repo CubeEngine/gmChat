@@ -1,0 +1,3 @@
+allowUserData: true
+format: '{PREFIX}{DISPLAYNAME}{SUFFIX}&f: {MESSAGE}'
+allowColors: true

@@ -1,0 +1,13 @@
+name: gmChat
+main: de.codeinfection.quickwango.gmChat.gmChat
+version: 1.0.0
+authors:
+  - Quick_Wango
+description: "A simple plugin for custom chat formats"
+website: http://mc-portal.de
+depend:
+  - GroupManager
+commands:
+  reloadgmchat:
+    usage: '/<command>'
+    description: 'Reloads this plugin'
