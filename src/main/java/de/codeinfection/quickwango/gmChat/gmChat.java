@@ -21,7 +21,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerChatEvent;
-import org.bukkit.permissions.Permissible;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -77,6 +76,7 @@ public class gmChat extends JavaPlugin implements Listener
         }
 
         // Config
+        this.reloadConfig();
         Configuration config = this.getConfig();
         config.options().copyDefaults(true);
 
@@ -94,14 +94,10 @@ public class gmChat extends JavaPlugin implements Listener
         this.getCommand("reloadgmchat").setExecutor(new CommandExecutor() {
             public boolean onCommand(CommandSender sender, Command command, String label, String[] args)
             {
-                if (sender instanceof Permissible)
+                if (!sender.hasPermission("gmChat.reload"))
                 {
-                    Permissible permissableSender = (Permissible)sender;
-                    if (!permissableSender.hasPermission("gmChat.reload"))
-                    {
-                        sender.sendMessage(ChatColor.RED + "Permission denied!");
-                        return true;
-                    }
+                    sender.sendMessage(ChatColor.RED + "Permission denied!");
+                    return true;
                 }
 
                 onDisable();
@@ -119,6 +115,9 @@ public class gmChat extends JavaPlugin implements Listener
     @Override
     public void onDisable()
     {
+        this.worldsHolder = null;
+        this.format = null;
+        
         log("Version " + this.pdf.getVersion() + " disabled");
     }
 

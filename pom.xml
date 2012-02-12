@@ -18,7 +18,7 @@ The plugin depends on GroupManager for prefixes and suffixes.</description>
     <repositories>
         <repository>
             <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/repo</url>
+            <url>http://repo.bukkit.org/content/groups/public/</url>
         </repository>
     </repositories>
 
@@ -26,7 +26,7 @@ The plugin depends on GroupManager for prefixes and suffixes.</description>
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.1-R1-SNAPSHOT</version>
+            <version>1.1-R3</version>
         </dependency>
         <dependency>
             <groupId>com.earth2me</groupId>
