@@ -1,10 +1,11 @@
 name: gmChat
-main: de.codeinfection.quickwango.gmChat.gmChat
-version: 1.1.0
+main: de.cubeisland.gmChat.gmChat
+version: ${project.version}
+website: http://cubeisland.de
+dev-url: http://dev.bukkit.org/server-mods/gmchat
 authors:
   - Quick_Wango
 description: "A simple plugin for custom chat formats"
-website: http://parallel-universe.de
 depend:
   - GroupManager
 commands:
