@@ -1,4 +1,4 @@
-package de.codeinfection.quickwango.gmChat;
+package de.cubeisland.gmChat;
 
 import java.io.File;
 import java.util.logging.Level;
