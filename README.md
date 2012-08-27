@@ -33,7 +33,7 @@ Placeholders:
 ***README***
 ============
 
-Plugin developed by Quick_Wango - [Parallel Universe](http://parallel-universe.de)
+Plugin developed by Quick_Wango - [Cube Island](http://cubeisland.de)
 
 - You want new features?
 - You want the plugin to be always up to date?
@@ -45,6 +45,6 @@ I'm doing this for literally nothing in my freetime, so keep me interessted in m
 
 Thanks in advance!
 
-***[Talk to the developer](http://webchat.esper.net/?channels=code-infection&nick=)*** (#code-infection on EsperNet)
+***[Talk to the developer](http://webchat.esper.net/?channels=cubeisland-dev&nick=)*** (#code-infection on EsperNet)
 
-***[Source on Github](https://github.com/quickwango/gmChat)***
+***[Source on Github](https://github.com/CubeIsland/gmChat)***
