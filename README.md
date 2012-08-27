@@ -45,6 +45,6 @@ I'm doing this for literally nothing in my freetime, so keep me interessted in m
 
 Thanks in advance!
 
-***[Talk to the developer](http://webchat.esper.net/?channels=cubeisland-dev&nick=)*** (#code-infection on EsperNet)
+***[Talk to the developer](http://webchat.esper.net/?channels=cubeisland-dev&nick=)*** (#cubeisland-dev on EsperNet)
 
 ***[Source on Github](https://github.com/CubeIsland/gmChat)***
