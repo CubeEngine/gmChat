@@ -169,7 +169,8 @@ public class gmChat extends JavaPlugin implements Listener
         {
             formatString = formatString.replace("{" + placeHolders[i] + "}", values[i]);
         }
-        return formatString.replaceAll("&([a-f0-9])", (this.allowColors ? "\u00A7$1" : ""));
+
+        return formatString.replaceAll("&([a-f0-9k-r])", (this.allowColors ? "\u00A7$1" : ""));
     }
 
     @EventHandler(priority = EventPriority.LOW)
